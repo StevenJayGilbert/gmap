@@ -344,6 +344,7 @@ Drupal.gmap.addHandler('gmap', function (elem) {
 
         // Set scale control visibility
         opts.scaleControl = obj.vars.behavior.scale;
+        opts.zoomControl = obj.vars.behavior.zoom;
 
         // Scroll wheel control
         if (obj.vars.behavior.nomousezoom) {
